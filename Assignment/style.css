@@ -1,0 +1,363 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.header_div {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #48afff;
+}
+
+.first_div {
+    margin-top: 12px;
+    margin-left: 100px;
+}
+
+.select {
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+}
+
+input {
+    padding: 20px;
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+}
+
+.second_div {
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.logo_img {
+    width: 50px;
+    margin-bottom: 17px;
+}
+
+h1 {
+    display: inline;
+}
+
+.srch {
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    /* color: rgb(0, 0, 0); */
+    margin-top: 10px;
+    /* margin-top: 5px; */
+    /* background-color: #2893e4; */
+    /* font-size: 300px; */
+    padding: 4px;
+    /* margin-top: 50px; */
+    border: none;
+}
+
+.srch:hover {
+    transition: 1s ease;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+span {
+    /* margin-top: 300px; */
+    width: 50px;
+    padding: 10px;
+    /* background-color: #2893e4; */
+}
+
+.third_div {
+    display: flex;
+    justify-content: space-evenly;
+    height: 180px;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.images {
+    margin-top: 35px;
+    width: 80px;
+    height: 90px;
+}
+
+.spn {
+    font-weight: bold;
+}
+
+.sliderImg {
+    width: 100%;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 50px; */
+    width: 100%;
+    height:100px ;
+    background-color: #48afff;
+}
+.all_product{
+    margin-left: 500px;
+    position: relative;
+    top: 12px;
+}
+.head_div {
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #48afff;
+    height: 80px;
+}
+/* .iphone_mobile {
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+} */
+.iphone_1st_div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iphone_2nd_div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.samsung_1st_div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.iphone_2nd_div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iphone_div {
+    padding: 15px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.samsung_div {
+    padding: 15px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.samsung_div:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.iphone_div:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.iphone_13_div {
+    padding: 15px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.iphone_13_div:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.iphone_Images {
+    width: 300px;
+    height: 400px;
+}
+
+.samsung_image {
+    width: 300px;
+    height: 350px;
+}
+
+.name_span {
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.iphone_head {
+    /* margin-top: 30px; */
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: #000000;
+    /* margin-top: 50px; */
+}
+
+.iphone_logo {
+    padding-top: 25px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.iphone_heading {
+    font-size: 50px;
+    color: white;
+}
+
+.samsung_logo {
+    padding-top: 50px;
+    height: 200px;
+    margin-top: -50px;
+}
+
+.samsung_head {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: #000000;
+    margin-top: 50px;
+}
+
+.Realme_head {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #000000;
+    margin-top: 50px;
+}
+
+.Realme_logo {
+    height: 200px;
+    margin-top: -50px;
+    background-size: 10%;
+}
+
+.Realme_1st_div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Realme_div {
+    padding: 60px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.Realme_div:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Realme_image {
+    margin-left: 5px;
+    width: 220px;
+    height: 300px;
+}
+
+.Realme_C25_image {
+    margin-top: 20px;
+    width: 320px;
+    height: 330px;
+}
+
+.Realme_C25_div {
+    padding: 30px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.Realme_C25_div:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Redmi_head {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: #000000;
+    margin-top: 50px;
+}
+.Redmi_logo {
+    height: 150px;
+    background-size: 10%;
+}
+.Redmi_1st_div {
+    display: flex;
+    justify-content: space-evenly;
+}
+.Redmi_div {
+    padding: 30px;
+    margin-top: 50px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.Redmi_div:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Redmi_image {
+    margin-top: 30px;
+    margin-left: 15px;
+    height: 250px;
+    width: 220px;
+}
+.text_div {
+    font-weight: bold;
+    margin-left: 35px;
+    position: relative;
+    top: 15px;
+}
+.Oppo_head {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: #000000;
+    margin-top: 50px;
+}
+.Oppo_logo {
+    height: 150px;
+    background-size: 10%;
+}
+.Oppo_1st_div {
+    display: flex;
+    justify-content: space-evenly;
+}
+.Oppo_image_1 {
+    margin-top: 35px;
+    height: 250px;
+    width: 190px;
+}
+.Oppo_image_2 {
+    margin-top: 30px;
+    height: 260px;
+    width: 250px;
+}
+.Oppo_image_3 {
+    margin-top: 15px;
+    height: 290px;
+    width: 190px;
+}
+.Oppo_image_4 {
+    margin-top: 35px;
+    height: 250px;
+    width: 190px;
+}
+.Oppo_div {
+    padding: 30px;
+    margin-top: 50px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.Oppo_div:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.oppo_text {
+    font-weight: bold;
+    margin-left: 20px;
+}
+.contact_image {
+    margin-top: 50px;
+    height: 100vh;
+    width: 100%;
+    background-image: url("http://gvpstohana.in/wp-content/uploads/2014/03/121212.gif");
+    background-size: cover;
+}

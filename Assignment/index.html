@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="header_div">
+            <div class="first_div">
+                <img src="./Images/logo.png" class="logo_img" />
+                <h1>Mobile Phones</h1>
+            </div>
+            <div class="second_div">
+                <select id="dropdown" class="select">
+                    <option>Select Mobile Phones</option>
+                </select>
+                <input type="text" id="search" placeholder="Enter Mobile Name">
+                <button class="srch" onclick="search()" class="btn btn-outline-success" type="submit">Search</button>
+            </div>
+        </div>
+        <div id="images_div">
+            <img src="" id="images" alt="">
+            <h3 id="name"></h3>
+            <h3 id="price"></h3>
+        </div>
+        <div id="after_none_div">
+            <div class="third_div">
+                <div>
+                    <img class="images" style="width: 60px;" src="./Images/iphonexii.jpg" alt="">
+                    <div>
+                        <span style="position: relative;right:8px" class="spn">Iphone</span>
+                    </div>
+                </div>
+                <div>
+                    <img class="images" style="width: 70px;" src="./Images/samsung.webp" alt="">
+                    <br>
+                    <span style="position: relative;right:10px" class="spn">Samsung</span>
+                </div>
+                <div>
+                    <img class="images" src="./Images/realme.png" alt="">
+                    <br>
+                    <span style="position: relative;left:3px" class="spn">Realme</span>
+                </div>
+                <div>
+                    <img class="images"
+                        src="http://static.compareindia.news18.com/compareindia/gallery/images/2019/nov/redmi8image_050847382712.jpg"
+                        alt="">
+                    <br>
+                    <span style="position: relative;left:5px" class="spn">Redmi</span>
+                </div>
+                <div>
+                    <img class="images" src="./Images/oppo-A21.jpg" alt="">
+                    <br>
+                    <span style="position: relative;left:6px" class="spn">Oppo</span>
+                </div>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="sliderImg" src="./Images/pakistan-priceoye-slider-isye1.png" class="d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img class="sliderImg" src="https://images.priceoye.pk/pakistan-priceoye-slider-1sh6x.png"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img class="sliderImg" src="./Images/pakistan-priceoye-slider-nejh8.jpg" class="d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="sliderImg"
+                            src="https://static.priceoye.pk/images/bnpl_banner/bnpl-banner-v4-desk.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div>
+                <div class="head_div">
+                    <h1 class="all_product" style="margin-top: 20px;">ALL PRODUCTS</h1>
+                </div>
+                <div id="div">
+                    <div class="mobile product_div">
+                        <div class="iphone_mobile">
+                            <div class="iphone_head">
+                                <img class="iphone_logo" src="./Images/iphone-lgo.gif" />
+                            </div>
+                            <div class="iphone_1st_div">
+                                <div class="iphone_div">
+                                    <img class="iphone_Images" src="./Images/IphoneX.png" alt="">
+                                    <div style="margin-top:20px;margin-bottom: 20px;">
+                                        <span class="name_span">Name : IphoneX</span>
+                                        <br>
+                                        <span class="name_span">Price : 60000</span>
+                                    </div>
+                                </div>
+                                <div class="iphone_div">
+                                    <img class="iphone_Images" src="./Images/iphoneXSmax.jpg" alt="">
+                                    <div style="margin-top:20px;margin-bottom: 20px;">
+                                        <span class="name_span">Name : IphoneXSMax</span>
+                                        <br>
+                                        <span class="name_span">Price : 120000</span>
+                                    </div>
+                                </div>
+                                <div class="iphone_div">
+                                    <img class="iphone_Images" src="./Images/iphonexi.webp" alt="">
+                                    <div style="margin-top:20px;margin-bottom: 20px;">
+                                        <span class="name_span">Name : IphoneXI</span>
+                                        <br>
+                                        <span class="name_span">Price : 150000</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="iphone_2nd_div">
+                                <div class="iphone_div" style="width: 330px;">
+                                    <img class="iphone_Images"
+                                        style="height: 310px;width:230px;margin-top: 65px;margin-left: 35px;"
+                                        src="./Images/iphonexii.jpg" alt="">
+                                    <div style="margin-top: 30px;">
+                                        <span class="name_span">Name : IphoneXII</span>
+                                        <br>
+                                        <span class="name_span">Price : 200000</span>
+                                    </div>
+                                </div>
+                                <div class="iphone_13_div">
+                                    <img class="iphone_Images" src="./Images/iphone-13-black.jpg" alt="">
+                                    <br>
+                                    <span class="name_span">Name : IphoneXIIIBlack</span>
+                                    <br>
+                                    <span class="name_span">Price : 300000</span>
+                                </div>
+                                <div class="iphone_13_div">
+                                    <img class="iphone_Images" src="./Images/Apple-iPhone-13-Red.png" alt="">
+                                    <br>
+                                    <div style="margin-bottom:10px;">
+                                        <span class="name_span">Name : IphoneXIIIRed</span>
+                                        <br>
+                                        <span class="name_span">Price : 300000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="samsung_mobile">
+                            <div class="samsung_head">
+                                <img class="samsung_logo" src="./Images/samsung-logo.gif" />
+                            </div>
+                            <div class="samsung_1st_div">
+                                <div class="samsung_div" style="padding: 55px;">
+                                    <img style="width: 200px;margin-left: 15px;margin-top: 40px;"
+                                        src="./Images/samsung-galaxy-s6.jpg" alt="">
+                                    <div style="margin-top:20px;margin-bottom: 20px;">
+                                        <span class="name_span" style="margin-left:30px;">Name : Samsung S6</span>
+                                        <br>
+                                        <span class="name_span" style="margin-left:30px;">Price : 20000</span>
+                                    </div>
+                                </div>
+                                <div class="samsung_div">
+                                    <img class="samsung_image" style="width:320px;height: 300px;margin-top: 50px;"
+                                        src="./Images/samsung S8.jpg" alt="">
+                                    <div>
+                                        <span class="name_span">Name : Samsung S8</span>
+                                        <br>
+                                        <span class="name_span">Price : 25000</span>
+                                    </div>
+                                </div>
+                                <div class="samsung_div" style="padding: 55px;">
+                                    <img class="samsung_image"
+                                        style="width: 200px;margin-left: 15px;margin-top: 55px;height: 230px;"
+                                        src="./Images/Samsung-Galaxy-S9.jpg" alt="">
+                                    <div style="margin-top:20px;margin-bottom: 20px;">
+                                        <span class="name_span" style="margin-left:30px;">Name : Samsung S9</span>
+                                        <br>
+                                        <span class="name_span" style="margin-left:30px;">Price : 30000</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="iphone_2nd_div">
+                                <div class="samsung_div" style="padding: 55px;">
+                                    <img class="samsung_image"
+                                        style="width: 200px;margin-left: 20px;margin-top: 45px;height: 280px;"
+                                        src="./Images/samsung-galaxy-s10.jpg" alt="">
+                                    <div style="margin-top:20px;margin-bottom: 20px;">
+                                        <span class="name_span">Name : Samsung S10</span>
+                                        <br>
+                                        <span class="name_span">Price : 40000</span>
+                                    </div>
+                                </div>
+                                <div class="samsung_div" style="padding: 55px;">
+                                    <img class="samsung_image"
+                                        style="width: 200px;margin-left: 20px;margin-top: 45px;height: 280px;"
+                                        src="./Images/samsung-galaxy-a72-4g.jpg" alt="">
+                                    <div style="margin-top:20px;margin-bottom: 20px;">
+                                        <span class="name_span">Name : Samsung A72</span>
+                                        <br>
+                                        <span class="name_span">Price : 70000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Realme_mobile">
+                            <div class="Realme_head">
+                                <img class="Realme_logo" src="./Images/realme-logo.gif" />
+                            </div>
+                            <div class="Realme_1st_div">
+                                <div class="Realme_div">
+                                    <img class="Realme_image" src="./Images/realme-7-pro.jpg" alt="">
+                                    <div>
+                                        <span style="position:relative;right:33px;top:20px;" class="name_span">Name :
+                                            Realme
+                                            7Pro</span>
+                                        <br>
+                                        <span style="position:relative;top:20px;" class="name_span">Price : 50000</span>
+                                    </div>
+                                </div>
+                                <div class="Realme_div">
+                                    <img class="Realme_image" src="./Images/realmeC25.jpg" alt="">
+                                    <div>
+                                        <span style="position:relative;right:30px;top:20px;" class="name_span">Name :
+                                            Realme
+                                            C25</span>
+                                        <br>
+                                        <span style="position:relative;top:20px;" class="name_span">Price : 25000</span>
+                                    </div>
+                                </div>
+                                <div class="Realme_div">
+                                    <img class="Realme_image" src="./Images/realme-c17.jpg" alt="">
+                                    <div>
+                                        <span style="position:relative;right:30px;top:20px;" class="name_span">Name :
+                                            Realme
+                                            C17</span>
+                                        <br>
+                                        <span style="position:relative;top:20px;" class="name_span">Price : 22000</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="iphone_2nd_div">
+                                <div class="Realme_C25_div">
+                                    <img class="Realme_C25_image" src="./Images/Realme-C15.jpg" alt="">
+                                    <div>
+                                        <span class="name_span">Name : Realme C15</span>
+                                        <br>
+                                        <span class="name_span">Price : 20000</span>
+                                    </div>
+                                </div>
+                                <div class="Realme_div">
+                                    <img class="Realme_image" src="./Images/realme-c11.jpg" alt="">
+                                    <div>
+                                        <span class="name_span">Name : Realme 11</span>
+                                        <br>
+                                        <span class="name_span">Price : 17000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Redmi_mobile">
+                            <div class="Redmi_head">
+                                <img class="Redmi_logo" src="./Images/redmi-logo.gif" />
+                            </div>
+                            <div class="Redmi_1st_div">
+                                <div class="Redmi_div">
+                                    <img class="Redmi_image" src="./Images/redmi-8.jpg" alt="">
+                                    <div>
+                                        <span class="text_div">Name : Redmi Note 8
+                                        </span>
+                                        <br>
+                                        <span class="text_div">Price : 30000</span>
+                                    </div>
+                                </div>
+                                <div class="Redmi_div">
+                                    <img class="Redmi_image" src="./Images/redmi-9.jpg" alt="">
+                                    <div>
+                                        <span class="text_div">Name : Redmi
+                                            Note 9</span>
+                                        <br>
+                                        <span class="text_div">Price : 35000</span>
+                                    </div>
+                                </div>
+                                <div class="Redmi_div">
+                                    <img class="Redmi_image" src="./Images/redmi-10.jpg" alt="">
+                                    <div>
+                                        <span class="text_div">Name : Redmi
+                                            Note 10</span>
+                                        <br>
+                                        <span class="text_div">Price : 40000</span>
+                                    </div>
+                                </div>
+                                <div class="Redmi_div">
+                                    <img class="Redmi_image" src="./Images/redmi-11.jpg" alt="">
+                                    <div>
+                                        <span class="text_div">Name : Redmi Note 11</span>
+                                        <br>
+                                        <span class="text_div">Price : 50000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Oppo_mobile">
+                            <div class="Oppo_head">
+                                <img class="Oppo_logo" src="./Images/oppo-logo.gif" />
+                            </div>
+                            <div class="Oppo_1st_div">
+                                <div class="Oppo_div">
+                                    <img class="Oppo_image_1" src="./Images/oppo-A19.jpg" alt="">
+                                    <div style="position: relative;top:20px">
+                                        <span class="oppo_text">Name : Oppo A19
+                                        </span>
+                                        <br>
+                                        <span class="oppo_text">Price : 30000</span>
+                                    </div>
+                                </div>
+                                <div class="Oppo_div">
+                                    <img class="Oppo_image_2" src="./Images/oppo-A21.jpg" alt="">
+                                    <div style="position: relative;top:15px;left: 30px;">
+                                        <span class="oppo_text">Name : Oppo A21</span>
+                                        <br>
+                                        <span class="oppo_text">Price : 35000</span>
+                                    </div>
+                                </div>
+                                <div class="Oppo_div">
+                                    <img class="Oppo_image_3" src="./Images/Oppo-A76.png" alt="">
+                                    <div>
+                                        <span class="oppo_text">Name : Oppo A76</span>
+                                        <br>
+                                        <span class="oppo_text">Price : 50000</span>
+                                    </div>
+                                </div>
+                                <div class="Oppo_div">
+                                    <img class="Oppo_image_4" src="./Images/oppo-A54.webp" alt="">
+                                    <div style="position: relative;top:20px">
+                                        <span class="oppo_text">Name : Oppo A54</span>
+                                        <br>
+                                        <span class="oppo_text">Price : 40000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact_image">
+                    <!-- <img class="contact_image" src="./Images/contact-us.gif.crdownload" alt=""> -->
+                </div>
+            </div>
+        </div>
+        <!-- <div> -->
+        <!-- <img src="./Images/oppo-A19.jpg"/> -->
+        <!-- <img id="main" /> -->
+        <!-- </div> -->
+        <!-- </section> -->
+        <!-- <input type="text" placeholder="Search.." id="search">
+    <img id="productImg" /> -->
+        <!-- <div id="container">
+        <div id="top">
+            <div id="searchingarea">
+                <select name="" id="dropdown">
+                    <option>Select The Brand</option>
+                </select>
+                <input type="text" name="" id="search" placeholder="Enter The Mobile Name">
+                <span class="material-symbols-outlined" onclick="search()">
+                    search
+                    </span>
+            </div>
+            <div class="card" id='card' style="width: 25rem;">
+                <img class="card-img-top" src="" id="image">
+                <h3 id="brand"></h3>
+                <h3 id="name"></h3>
+                <h3 id="price"></h3>
+            </div>
+        </div>
+    </div> -->
+        <script src="./app.js"></script>
+        <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
